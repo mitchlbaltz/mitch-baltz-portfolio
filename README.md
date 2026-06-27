@@ -26,8 +26,10 @@ amount of vanilla JavaScript, and no build step or third-party dependencies.
 ├── README.md
 ├── AI-REVIEW-NOTES.md      # Summary of the independent AI review
 └── assets/
-    ├── favicon.svg         # Monogram favicon / social image
+    ├── favicon.svg              # Monogram favicon / social image
+    ├── mitch-baltz-photo.jpg    # Student/professional portrait used in the hero
     ├── mitch-baltz-resume.pdf
+    ├── writing-sample.pdf       # Political communications and research work sample
     ├── script.js
     └── styles.css
 ```
@@ -44,6 +46,11 @@ This project was developed with AI assistance in two independent passes:
 The resume PDF (`assets/mitch-baltz-resume.pdf`) is treated as the source of
 truth for all biographical and professional content. See `AI-REVIEW-NOTES.md`
 for the review summary.
+
+Round 2 improvements based on instructor feedback added a real
+student/professional photo, a clearly labeled GitHub profile link alongside the
+other contact links, and one concrete writing sample PDF in the Political &
+Research Work section.
 
 ## Local preview
 
@@ -66,7 +73,10 @@ All asset paths are relative, so the site works correctly from that
 project-subpath URL. The `.nojekyll` file ensures GitHub Pages serves the
 files without Jekyll processing.
 
-## Resume
+## Resume and work sample
 
 The source resume PDF lives at `assets/mitch-baltz-resume.pdf` and is linked
 from the navigation, hero, contact section, and footer via download buttons.
+
+The concrete writing/work sample lives at `assets/writing-sample.pdf` and is
+linked from the Political & Research Work section as a viewable PDF.

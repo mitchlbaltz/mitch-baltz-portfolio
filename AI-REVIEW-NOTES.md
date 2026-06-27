@@ -63,3 +63,10 @@ skills were invented.
 
 The site was built with OpenAI Codex and independently reviewed with Claude
 Code. Content was verified against the resume; nothing was fabricated.
+
+## Round 2 instructor-feedback updates
+
+- Added Mitch’s real student/professional portrait to the hero card using the uploaded `assets/mitch-baltz-photo.jpg`, with descriptive alt text and CSS `object-fit` cropping rather than editing the source image.
+- Added a clearly labeled GitHub profile link (`https://github.com/mitchlbaltz/`) in the navigation-adjacent contact areas: Contact and footer, plus the primary navigation for discoverability.
+- Renamed the uploaded writing sample to the web-safe `assets/writing-sample.pdf` and added it as a concrete work-sample card in the Political & Research Work section. The card describes it as a writing/work sample, not a publication, and does not invent client, campaign, audience, results, or publication details.
+- Rechecked that the existing positioning — “Research, messaging, and strategy for Democratic campaigns” — remains intact and that no private address, phone number, placeholder copy, or fabricated campaign credentials were added.
